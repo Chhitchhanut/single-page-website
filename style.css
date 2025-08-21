@@ -123,6 +123,7 @@ header{
 .art1, 
 .art2, 
 .art3{
+    padding-right: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,7 +172,7 @@ header{
 .sec3-art1,
 .sec3-art2,
 .sec3-art3{
-    margin: 20px;
+    padding-right: 60px;
 }
 
 
@@ -455,4 +456,154 @@ footer{
 }
 .sec1{
     color: white;
+}
+
+
+
+
+/* --------------teblet--------------- */
+@media (max-width:1000px) and (min-width:720px){
+    *{
+        font-size: 18px;
+    }
+    header{
+        padding: 0px 60px;
+    }
+    .sec1,
+    .sec2,
+    .sec3,
+    .sec4,
+    .sec5,
+    .sec6,
+    .sec7{
+        color: #333;
+        padding: 100px 60px;
+    }
+    .sec1{
+        color: white;
+    }
+    .sec1-form{
+        height: 380px;
+        padding: 40px;
+        border-radius: 15px;
+        row-gap: 30px;
+    }
+    .sec1-form input{
+        width: 120px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .sec1-form button{
+        padding: 20px;
+    }
+
+
+    .sec2{
+        column-gap: 50px;
+    }
+    .art1, 
+    .art2, 
+    .art3{
+        padding-right: 50px;
+        text-align: justify;
+    }
+    .foot-sec2{
+        margin-top: 20px;
+    }
+    #sec2-h2{
+        margin-bottom: 50px;
+    }
+    .brand-name{
+        font-weight: bold;
+    }
+
+
+    .sec3{
+        text-align: justify;
+    }
+    .sec3-art1,
+    .sec3-art2,
+    .sec3-art3{
+        padding-right: 50px;
+    }
+
+
+    .sec4-img{
+        height: 500px;
+    }
+    .sec4-btt{
+        margin-top: 60px;
+    }
+
+
+    .sec5-main{
+        column-gap: 30px;
+    }
+    .sec5-main h1{
+        margin: 40px 0px;
+    }
+
+
+    .sec6-main{
+        margin-top: 60px;
+        gap: 50px ;
+    }
+    .sec6-card1,
+    .sec6-card2,
+    .sec6-card3,
+    .sec6-card4{
+        width: 340px;
+        padding: 40px;
+    }
+
+
+    .sec7{
+        gap: 50px;
+    }
+    .sec7-card-header p{
+        font-size: 20px;
+    }
+    .sec7-card-header i{
+        padding: 10px;
+    }
+    .sec7-card1,
+    .sec7-card2,
+    .sec7-card3,
+    .sec7-card4,
+    .sec7-card5,
+    .sec7-card6{
+        width: 340px;
+        padding: 40px;
+        row-gap: 15px;
+    }
+    .sec7-row{
+        gap: 50px;
+    }
+
+
+    footer{
+        padding: 100px 80px;
+        gap: 40px;
+    }
+    .footer-1-1 h3,
+    .footer-1-2 h3,
+    .footer-1-3 h3,
+    .footer-1-4 h3,
+    .footer-1-5 h3{
+        margin-bottom: 35px;
+    }
+    .footer-1-1 p,
+    .footer-1-2 p,
+    .footer-1-3 p,
+    .footer-1-4 p,
+    .footer-1-5 p,
+    .t-btt button{
+        margin-top: 10px;
+    }
+    .footer-3-L{
+        gap: 15px;
+    }
+    .footer-2{
+        padding: 20px 0px;
+    }
 }
